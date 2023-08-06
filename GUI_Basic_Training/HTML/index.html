@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Raj Mandaviya">
+    <meta name="description" content="GUI Training">
+    <title>GUI basic Training</title>
+
+    <style>
+        @media (max-width: 375) {
+            #tech-choices{
+                display: block;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div>
+        <div>
+            <h1>HTML Module</h1>
+            <a href="https://github.com/Rajm1505">My GitHub</a>            
+        </div>
+    </br>
+        <form action="/validateuser" method="POST">
+            
+            <label for="name">Enter your name:</label>
+            <input type="text" name="name" placeholder="Raj">
+            <br> <br>
+            
+            <label for="name">Enter your email:</label>
+            <input type="email" name="email" placeholder="raj@gmail.com">
+            
+            <br><br>
+            <label for="gender">Gender</label>
+            <input type="radio" name="gender" value="male"> Male
+            <input type="radio" name="gender" value="female"> Female
+            <br><br>
+        
+            
+            <label for="city">Select your city</label>
+            <select name="city">
+                <option value="pbr">Porbandar</option>
+                <option value="raj">Rajkot</option>
+                <option value="ahm">Ahmedabad</option>
+            </select>
+            
+            <br><br>
+            <label for="tech">Choose your preffered technologies</label>
+            <div style="display: inline;" id="tech-choices">
+
+                <input type="checkbox" name="tech" value="asp"> ASP .NET
+                <input type="checkbox" name="tech" value="node"> NodeJS
+                <input type="checkbox" name="tech" value="django"> Django
+            </div>
+            
+            
+            
+            <br><br>
+            <label for="tech">Upload your avatar</label>
+        <input type="file" name="avatar" accept=".jpg, .png"> 
+        <br><br>
+        
+        
+        <label for="msg">Enter your message:</label>
+        <textarea name="msg" id="msg" rows="2" cols="20"></textarea>
+        <br><br>
+        
+        <button type="submit">Submit</button>
+        <button type="button">
+            <img src="reset.png" alt="Reset" width="20x" height="15px">
+        </button>
+        
+    </form>
+</div>
+
+</body>
+</html>
