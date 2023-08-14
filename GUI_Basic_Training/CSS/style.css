@@ -55,6 +55,7 @@ body{
     display: flex;
     align-items: center;
     
+    
 }
 label{
     margin-right:  4%;;
@@ -81,4 +82,5 @@ margin:5px
 }
 .button-warning:hover{
     background-color: rgb(236, 236, 70);
+    cursor: grab;
 }
