@@ -1,80 +1,152 @@
-// Password Validation
 
-var password1 = document.getElementById("password1")
-var password2 = document.getElementById("password2")
-const PasswordValidationMsg1 = document.getElementById("PasswordValidationMsg1")
-const PasswordValidationMsg2 = document.getElementById("PasswordValidationMsg2")
-
-var form_error = true;
-
-password1.addEventListener("blur", function(){
-    if(password1.value.length < 8){
-        PasswordValidationMsg1.innerText = "Password must be longer that 8 characters"
-        PasswordValidationMsg1.className = "text-danger";
+class FormValidator{
+    
+    constructor(){
+        this.formError = true;
+        this.Theme();
     }
-    else{
-        PasswordValidationMsg1.innerText = "OK!";
-        PasswordValidationMsg1.className = "text-success";
-        form_error = false;
+    /*
+    This method will be called by default 
+    if()
+    */
+    Theme() {
+        //Setting theme in all pages
+        let theme = localStorage.getItem("theme");
+        console.log(theme);
+        if(theme){
+            document.body.className = theme === "dark" ? "bg-dark text-light" : "bg-light text-dark";
+        }
+        else{
+            document.body.className = "bg-light text-dark"
+        }
+    }
+
+    // A Static method which can be called based on requirement of generating a random password 
+    static GenerateRandomPassword() {
+        const charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+        let password = "";
+        for (let i = 0; i < 8; i++) {
+            const randomIndex = Math.floor(Math.random() * charset.length);
+            password += charset[randomIndex];
+        }
+        return password;
+    }
+
+    /*
+    This function will take a password and a messagelabel element as parameters.
+    Checks if password length is smaller than 8 and manipulates message labels 
+    */
+    ValidatePasswordLength(password,passwordValidationMsg){
+                if(password.value.length < 8){
+                    passwordValidationMsg.innerText = "Password must be longer that 8 characters";
+                    passwordValidationMsg.className = "text-danger";
+                    this.formError = true;
+                }
+                else{
+                    passwordValidationMsg.innerText = "OK!";
+                    passwordValidationMsg.className = "text-success";
+                    this.formError = false;
+                    
+                }    
+    }
+    /*
+    This function will take password, cPassword, and 2 messagelabel element as parameters.
+    Checks if password and confirmpassowrd are same or not and manipulates message labels 
+    */
+    MatchPasswords(password,cPassword,passwordValidationMsg) {
+                if(password.value !== cPassword.value){
+                    cPasswordValidationMsg.innerText = "Passwords do not match";
+                    cPasswordValidationMsg.className = "text-danger";
+                    this.formError = true;
+                }
+                else{
+                    cPasswordValidationMsg.innerText = "OK!";
+                    cPasswordValidationMsg.className = "text-success";
+                    this.formError = false;
+                }
+            };
         
+    /*
+    This function will take password element as input and 
+    toggles Password visibility from text to password and vice versa
+    */
+    PasswordVisibilityToggle(password){
+        password.type = password.type === "password" ? "text" : "password";
     }
-})
 
-password2.addEventListener("blur", function (){
-    console.log(password1.value, password2.value);
-    if(password1.value !== password2.value){
-        PasswordValidationMsg2.innerText = "Passwords do not match";
-        PasswordValidationMsg2.className = "text-danger";
-    }
-    else if(password2.value.length < 8){
-        PasswordValidationMsg2.innerText = "Password must be longer that 8 characters"
-        PasswordValidationMsg2.className = "text-danger";
-        
-    }
-    else{
-        PasswordValidationMsg2.innerText = "OK!";
-        PasswordValidationMsg2.className = "text-success";
-        form_error = false;
-    }
-});
-
-
-function Password1VisibilityToggle(){
-    
-    if(password1.type === "password"){
-        password1.type = "text"
-    }else{
-        password1.type = "password"
-    }
-}
-function Password2VisibilityToggle(){
-    if(password2.type === "password"){
-        password2.type = "text"
-    }else{
-        password2.type = "password"
-    }
-}
-
-document.getElementById("RegForm").addEventListener("submit",function(event){
-
-    
-    var name = document.getElementById("name").value;
-    var email = document.getElementById("email").value;
-    var password = document.getElementById("password1").value;
-    var password = document.getElementById("password2").value;
-
-    console.log(form_error);
-    
-    if (name === "" || email === "" || password === "") {
-        alert("All fields are required");
-        event.preventDefault(); // Prevent form submission
-    } 
-    else if(form_error){
-       preventDefault();
-       console.log(form_error);
+    IsEmptyValidator(event,name,email,password,cPassword,checkboxArray){
+        if (name === "" || email === "" || password === "" || cPassword === "") {
+            event.preventDefault();
+            alert("All * fields are required");
+        }
+        else if(checkboxArray.length === 0){
+                event.preventDefault();
+                    alert("Select atleast one technology!");
+        } 
+        else if (this.formError) {
+            event.preventDefault();
+            alert("Please fill the form correctly!");
+        }
     }
    
+}
 
-});
 
 
+
+const formValidator = new FormValidator();
+
+const password = document.getElementById("password");
+const cPassword = document.getElementById("cPassword");
+const passwordValidationMsg = document.getElementById("passwordValidationMsg");
+const cPasswordValidationMsg = document.getElementById("cPasswordValidationMsg");
+
+const btnShowPassword = document.getElementById("btnShowPassword");
+const btnShowCPassword = document.getElementById("btnShowCPassword");
+
+if(password){
+    // Wont work as there should be a callback function with an event
+    // password.addEventListener("blur", formValidator.ValidatePasswordLength(password,passwordValidationMsg)); 
+    password.addEventListener("blur", function() {
+        formValidator.ValidatePasswordLength(password,passwordValidationMsg)
+    })
+
+    btnShowPassword.addEventListener("click", function () {
+        formValidator.PasswordVisibilityToggle(password) 
+    });
+
+}
+
+if(cPassword){
+    cPassword.addEventListener("blur", function () {
+        formValidator.ValidatePasswordLength(cPassword,cPasswordValidationMsg)
+    });
+    cPassword.addEventListener("blur",function(){
+        formValidator.MatchPasswords(password,cPassword,cPasswordValidationMsg)
+    });
+
+    btnShowCPassword.addEventListener("click", function () {
+        formValidator.PasswordVisibilityToggle(cPassword) 
+    });
+}
+
+
+const regForm = document.getElementById("regForm");
+if (regForm) {
+    regForm.addEventListener("submit", function (event) {
+        event.preventDefault();
+        
+        const name = event.target.name.value
+        const email = event.target.email.value;
+        const technologies = document.querySelectorAll("input[name=tech]:checked");
+        
+        formValidator.IsEmptyValidator(event,name,email,password.value,cPassword.value,technologies);
+        
+    });
+    }
+
+
+
+// if(a){ 
+//     console.log("val of a",a);  //Will not execute if a is false or null or undefined 
+// }
