@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Raj Mandaviya">
+    <meta name="description" content="GUI Training">
+    <title>GUI basic Training</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <style>
+        
+    </style>
+    <script src="./JS/validateuser.js"></script>
+    <script>
+        if (IsLoggedIn()) { //function in validateuser.js
+            window.location.replace("./index.html");
+        } 
+    </script>
+</head>
+    <body  class="" > <!-- Inline CSS -->
+        <div class="container text-center w-50 mt-5" id="initial-text">
+            <h3>Press the button to register!</h3>
+            <button class="btn btn-success mt-3" id="btnFormToggleOn" > 
+                Register
+            </button>
+            <a class="btn btn-primary mt-3" href="login.html"> 
+                Login
+            </a>
+            
+        </div>
+
+        <div class="container mt-5 w-50" id="register-form-div" style="display: none;">   
+            <div>
+                <button class="btn btn-danger float-end" id="btnFormToggleOff" >
+                    X
+                </button>
+                <form  id="regForm">
+                    <div class="heading"> 
+                        <h1>Registeration Form</h1>
+                        <a class="btn btn-warning " href="https://github.com/Rajm1505">
+                        <svg class="github-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                        My GitHub
+                        </a>            
+                    </div>
+                    
+                    <div  class="mb-3">
+                        <label for="name" class="form-label">Enter your name *</label>
+                        <input type="text" class="form-control w-75" name="name" id="name" placeholder="Raj" value="Raj">
+                    </div>
+
+                    <div  class="mb-3">
+                        <label for="company" class="form-label">Enter your Company's name *</label>
+                        <input type="text" class="form-control w-75" name="company" id="company" value="RKIT">
+                    </div>
+
+                    <div  class="mb-3">
+                        <label for="phone" class="form-label">Enter your Phone number *</label>
+                        <input type="text" class="form-control w-75" name="phone" id="phone" value="9874561230">
+                    </div>
+                        
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Enter your email *</label>
+                        <input type="email"  class="form-control w-75" id="email" name="email" placeholder="raj@gmail.com" value="raj@gmail.com">
+                    </div>
+                 
+                    <div class="mb-3">
+                        <label for="username" class="form-label">Enter your Username *</label>
+                        <input type="text"  class="form-control w-75" id="username" name="username" value="raj15" >
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="password" class="form-label">Enter new Password *</label>
+                        <div class="d-flex">
+                            <input type="password"  class="form-control w-75" id="password" name="password">
+                            <button type="button" class="btn btn-light btn-outline-secondary m-1" id="btnShowPassword">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye" viewBox="0 0 16 16"><path d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"/><path d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z"/></svg>
+                            </button>
+                        </div>
+                        <span>
+                            <a href="#" class=" text-warning me-3" id="btnGeneratePassword">Generate a Random Password</a>
+                            <span id="generatedPassword"></span>    
+                        </span>
+                        <span class="" id="passwordValidationMsg"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label for="cPassword" class="form-label">Confirm Password *</label>
+                        <div class="d-flex">
+                            <input type="password"  class="form-control w-75" id="cPassword" name="cPassword">
+                            <button type="button"  class="btn btn-light btn-outline-secondary m-1" id="btnShowCPassword">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye" viewBox="0 0 16 16"><path d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"/><path d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z"/></svg>
+                            </button>
+                        </div>
+                        <span class="" id="cPasswordValidationMsg"></span>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="website" class="form-label">Enter your Website URL *</label>
+                        <input type="url"  class="form-control w-75" id="website" name="website" placeholder="https://google.com" value="https://rkitsoftware.com">     
+                    </div>
+
+                    <div class="mb-3 message-input">
+                        
+                        <label for="address" class="form-label">Enter your Address</label>
+                        <textarea class="form-control w-75" name="address" id="address" rows="2" cols="20"></textarea>
+                    </div>
+                    
+                    <div class="mb-3" style="align-items: center; display: flex;">
+                        
+                        <button type="submit" class="btn btn-warning me-3" >Submit</button>
+                        <button type="reset" class="btn btn-danger">
+                            <img src="../reset.png" alt="Reset" width="22x" height="16px">
+                        </button>
+                    </div>
+                    
+                </form>
+            </div>
+            </div>
+            
+
+            
+<script src="../jQuery/JS/jquery-3.7.1.min.js"></script>
+<script src="./JS/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+<script>
+
+
+let regFormDiv = document.getElementById("register-form-div");
+let initialText = document.getElementById("initial-text");
+
+document.getElementById("btnFormToggleOn").addEventListener("click", function(){
+    regFormDiv.style.display = "block";
+    initialText.style.display = "none";  
+})
+document.getElementById("btnFormToggleOff").addEventListener("click", function(){
+    regFormDiv.style.display = "none";
+    initialText.style.display = "block";
+})
+
+document.getElementById("btnGeneratePassword").addEventListener("click", function(){
+    const randomPassword = FormValidator.GenerateRandomPassword();
+    document.getElementById("generatedPassword").innerText = randomPassword;
+})
+
+
+$(document).ready(function(){
+        $('#regForm').validate({
+            rules: {
+                name: "required",
+                company:"required",
+                // email: "required", //automatically checks if email format is correct
+                email:{
+                    required : true,
+                },
+                phone: {
+                    required : true,
+                    minlength : 10,
+                    maxlength : 10
+                },
+                //Way to add multiple validation in single field 
+                password: {
+                    required: true,
+                    minlength: 8,
+                    maxlength: 16
+                },
+                cPassword: {
+                    required: true,
+                    minlength: 8,
+                    maxlength: 16,
+                    equalTo : '#password'  //matches password and cpassword
+                },
+                website : "required",
+                username : {
+                    required : true,
+                    minlength : 2,
+                    maxlength : 10
+                },
+                address : "required"
+            },
+            messages: {
+                name: "Please enter your name",
+            
+                password: {
+                    required: "Please enter your password",
+                    minlength: "Password must be 8 or more characters",
+                    maxlength: "Password must be 16 or less characters"
+                },
+                // password : { }//This will run instead of previous password validation
+                cPassword: {
+                    required: "Please confirm your password",
+                    minlength: "Confirm Password must be 8 or more characters",
+                    maxlength: "Confirm Password must be 16 or less characters",
+                    equalTo : 'Passwords do not match'
+                },
+                
+                submitHandler : function(form){
+                    return false;
+                }
+            },
+            invalidHandler: function (event, validator) {
+                let errors = validator.numberOfInvalids();
+                $('#form-action-buttons').after(`<p class="error">${errors} fields are invalid, Please fill them correctly</p>`)
+            }
+        })
+        
+    })
+
+    document.getElementById("regForm").addEventListener("submit",function(event){
+        console.log("submitting");
+        event.preventDefault(); 
+        
+            let data = {
+                name : event.target.name.value,
+                username : event.target.username.value,
+                company : event.target.company.value,
+                email : event.target.email.value,
+                password : event.target.password.value,
+                phone : event.target.phone.value,
+                address : event.target.address.value,
+            } 
+            console.log(data);
+        
+            let setUser = $.post({
+                            url:"https://jsonplaceholder.typicode.com/users",
+                            data : data
+                        }).promise()
+        
+            setUser.then(function(result,status){
+                if(status === 'success'){
+                    console.log(result);
+                    alert("Successfull, Press OK to login "); 
+                    window.location.replace('login.html'); 
+                }
+            }, function(error){
+                console.log("Some error occured!");
+            })
+        
+
+    })
+   
+
+
+
+</script>
+</body>
+</html>

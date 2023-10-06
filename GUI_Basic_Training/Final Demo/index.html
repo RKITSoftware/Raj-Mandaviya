@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Raj Mandaviya">
+    <meta name="description" content="GUI Training">
+    <title>GUI basic Training</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <style>
+        
+    </style>
+    <script src="./JS/validateuser.js"></script>
+    <script>
+        let username = IsLoggedIn();
+        if (!username) { //function in validateuser.js
+            window.location.replace("./login.html") ;
+        } 
+        
+    </script>
+</head>
+    <body  class="" > <!-- Inline CSS -->
+        <div class="container mt-5 text-center border border-warning p-5">
+            <h1>Hello <span class="text-capitalize" id="usernameText"></span></h1>
+            <button class="btn btn-danger mt-3" id="btnLogout"> 
+                Logout
+            </button>
+            <button class="btn btn-warning mt-3" id="btnChangeTheme"> 
+                Change Theme
+            </button>
+            <div class="m-5">
+                <button  class="mb-1 float-end btn btn-danger" id="btnDeleteNote">Delete Note</button>
+                <button  class="mb-1 me-1 float-end btn " id="btnSaveNote">Save Note</button>
+                <label for="note" class="float-start">Enter your Note below</label>
+                <textarea class="form-control" name="note" id="note" cols="30" rows="10"></textarea>
+            </div>
+            <div class="text-center">
+                <img id="miracleImg" src="../miracle-accounting-ssftware.png" alt="miracle-img" class="img-fluid img-thumbnail h-25 w-25">
+            </div>
+        </div>
+        
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+<script src="../jQuery/JS/jquery-3.7.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>
+<script src="./JS/script.js"></script>
+<script>
+
+document.getElementById("usernameText").innerText = username.split("=")[1]; 
+
+document.getElementById("btnLogout").addEventListener("click",function (){
+    console.log("logout");
+    document.cookie = `username=;expires=Thu, 01 Jan 1970 00:00:00 UTC;path=/;`
+    sessionStorage.clear();
+    window.location.replace("./login.html");
+})
+
+document.getElementById("btnChangeTheme").addEventListener("click",function (){
+    if(localStorage.getItem("theme") === 'dark'){
+        localStorage.setItem("theme","light");               
+    }
+    else{
+        localStorage.setItem("theme","dark");       
+    }
+    location.reload();
+})
+
+//Note Manipulation using SessionStorage
+let note = sessionStorage.getItem("note");
+if(note){
+    document.getElementById("note").value = note;
+    document.getElementById("btnSaveNote").className += "btn-primary";
+    document.getElementById("btnSaveNote").innerText = "Update Note";  
+}
+else{
+    document.getElementById("btnSaveNote").className += "btn-success";
+}
+
+document.getElementById("btnSaveNote").addEventListener("click",function(){
+    
+    sessionStorage.setItem("note",document.getElementById("note").value);
+    let setNote = $.post({
+        url:"https://jsonplaceholder.typicode.com/todos",
+        data : {note: $('#note').val()}
+    }).promise()
+    
+   
+    setNote.then(function(result){
+        console.log(result);
+        alert("Saved");
+        location.reload();
+    }, function(error){
+        console.log("Some error occured!");
+    })
+
+})
+document.getElementById("btnDeleteNote").addEventListener("click",function(){
+    sessionStorage.clear();
+    
+    $.ajax({
+        url : "https://jsonplaceholder.typicode.com/todos/200",
+        method : "DELETE"
+    }).done(function(result,status){
+        console.log("delete ",status);
+        alert("deleted");
+        location.reload();
+    }).fail(function(error){
+        console.log(error);
+    })
+})
+
+const url = document.getElementById("miracleImg").src        
+// caches.open("imageCache").then(cache => {
+//     cache.add(url).then(cache => {
+//         console.log("img cached");
+//     })
+// })
+
+// caches.open("imageCache").then(cache => {
+//     cache.delete(url).then(cache => {
+//         console.log("img deleted");
+//     })
+// })
+
+</script>
+
+</body>
+</html>
