@@ -40,13 +40,12 @@ body{
 
 .github-icon{
     position: relative;
-    top: 0.37em;
+    top: 0.22em;
 }
 
 .form-controls{
     margin: 20px;
     width: 100%;
-
 }
 .heading{
     margin: 20px
@@ -54,8 +53,6 @@ body{
 .message-input{
     display: flex;
     align-items: center;
-    
-    
 }
 label{
     margin-right:  4%;;

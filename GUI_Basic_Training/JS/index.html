@@ -15,7 +15,7 @@
     </style>
     <script src="validateuser.js"></script>
     <script>
-        var username = IsLoggedIn();
+        let username = IsLoggedIn();
         if (!username) { //function in validateuser.js
             window.location.replace("./login.html") ;
         } 
@@ -68,7 +68,7 @@ document.getElementById("btnChangeTheme").addEventListener("click",function (){
 })
 
 //Note Manipulation using SessionStorage
-var note = sessionStorage.getItem("note");
+let note = sessionStorage.getItem("note");
 if(note){
     document.getElementById("note").value = note;
     document.getElementById("btnSaveNote").className += "btn-primary";

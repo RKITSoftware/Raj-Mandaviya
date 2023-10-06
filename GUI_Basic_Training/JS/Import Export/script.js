@@ -1,5 +1,5 @@
 /*
-Moduling works when working in a collaborative env or a larger code base
+Moduling is used when working in a collaborative env or a larger code base
 IMP: 
 Always add "type=module" in HTML file to consider script.js as a module
 to use import export a file needs to be a module

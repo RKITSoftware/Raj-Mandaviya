@@ -25,7 +25,7 @@ document.getElementById("btnAddAllCache").addEventListener("click", function(){
     caches.open(cacheName).then(cache => {
     });
 
-    //Adding image to the cache    
+    //Adding all images to the cache    
     caches.open("imageCache").then(cache => {
         cache.addAll(urls).then(() => {
             console.log("all imgs cached");

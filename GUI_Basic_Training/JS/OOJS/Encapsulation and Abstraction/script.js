@@ -3,7 +3,7 @@
 //Encapsulation
 
 class Digilocker{
-    daysInAMonth = 30   //this variable can accessed using 'this' keyword
+    daysInAMonth = 30   //public, this variable can accessed using 'this' keyword
     #hoursInADay = 24   //Declaring Private variable
     constructor(name, aadhar, age){
         let daysInAYear = 365; //Declaring Private variable
@@ -47,7 +47,7 @@ console.log("Raj's age in days are "  + raj.ageInDays );
 raj.HoursInADay = 200
 console.log(raj.HoursInADay);
 
-raj.GetAadhar() //Acessing private function indirecly
+raj.GetAadhar() //Acessing private function indirectly
 // raj.#GetSecretKey() //error -> Private method
 
 

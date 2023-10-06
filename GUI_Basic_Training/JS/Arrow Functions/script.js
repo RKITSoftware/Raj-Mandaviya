@@ -13,7 +13,7 @@ const GreetSomebody = name => console.log(`Welcome ${name}`); console.log("Hello
 
 // const greetSomebody = name, greeting => console.log(`${greeting} ${name}`); console.log("Hello"); //error "Paranthesis compulsory"
 
-//'this' will be window object when using JS Function inside a Function 
+//'this' will be window object when using JS Function inside a Function     
 const studentA = {
     name : "Raj",
     age : 20,

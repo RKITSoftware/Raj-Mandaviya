@@ -1,14 +1,17 @@
 //var
 
 var a = "Var outside block"
+console.log(a);
 {
     var a = "var inside block"; //Changes global var
     console.log(a);
-
+    
     console.log(hoistedA); //undefined -> hoisting declares variable at top but does not assign it
     hoistedA = 10
     console.log(hoistedA); //10
 }
+console.log(a);
+var a = "outside 2"  //Can be redecalared
 console.log(a);
 
 a = "hello"; console.log(a); //Can be reassigned

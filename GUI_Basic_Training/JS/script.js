@@ -50,18 +50,18 @@ class FormValidator{
                 }    
     }
     /*
-    This function will take password, cPassword, and 2 messagelabel element as parameters.
+    This function will take password, cPassword, and a messagelabel element as parameters.
     Checks if password and confirmpassowrd are same or not and manipulates message labels 
     */
     MatchPasswords(password,cPassword,passwordValidationMsg) {
                 if(password.value !== cPassword.value){
-                    cPasswordValidationMsg.innerText = "Passwords do not match";
-                    cPasswordValidationMsg.className = "text-danger";
+                    passwordValidationMsg.innerText = "Passwords do not match";
+                    passwordValidationMsg.className = "text-danger";
                     this.formError = true;
                 }
                 else{
-                    cPasswordValidationMsg.innerText = "OK!";
-                    cPasswordValidationMsg.className = "text-success";
+                    passwordValidationMsg.innerText = "OK!";
+                    passwordValidationMsg.className = "text-success";
                     this.formError = false;
                 }
             };
@@ -104,6 +104,7 @@ const cPasswordValidationMsg = document.getElementById("cPasswordValidationMsg")
 const btnShowPassword = document.getElementById("btnShowPassword");
 const btnShowCPassword = document.getElementById("btnShowCPassword");
 
+//Validating Password. Will validate only if Password element exists
 if(password){
     // Wont work as there should be a callback function with an event
     // password.addEventListener("blur", formValidator.ValidatePasswordLength(password,passwordValidationMsg)); 
@@ -116,7 +117,7 @@ if(password){
     });
 
 }
-
+//Validating Confirm Password. Will validate only if cPassword element exists
 if(cPassword){
     cPassword.addEventListener("blur", function () {
         formValidator.ValidatePasswordLength(cPassword,cPasswordValidationMsg)
@@ -130,7 +131,7 @@ if(cPassword){
     });
 }
 
-
+//Validating if any field required is empty or not
 const regForm = document.getElementById("regForm");
 if (regForm) {
     regForm.addEventListener("submit", function (event) {

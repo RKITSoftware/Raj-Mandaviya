@@ -21,7 +21,7 @@ class Digilocker{
 //Inherits all methods and properties of Digilocker
 class IssuedDocuments extends Digilocker{
     /* If there is no Constructor in child class
-    By default constructor of parent class will be called like bellow
+    By default constructor of parent class will be called like below
     constructor(...args){
         super(...args)
     }*/
@@ -47,22 +47,16 @@ class IssuedDocuments extends Digilocker{
     }
 }
 
-class UploadedDocuments extends Digilocker{
+class UploadedDocuments{
 
-    constructor(name,aadhar,age){
-        super(name,aadhar);
-        this.age = age
-    }
-
-    //Method Overriding -> same name same parameters
     GetDocList(){
-        console.log(`Hello ${this.name},Your Uploaded documents are here`);
+        console.log(`Hello ,Your Uploaded documents are here`);
     }
-
-    GetAadhar(){
-        super.GetAadhar();
-        console.log(`Aadhar saying age of ${this.age} will be used to fetch Uploaded Documents`);
-    }    
+    //Second Method will be executed //Method overloading is not supported
+    GetDocList(color){
+        console.log(`Hello ,Your Uploaded documents are here ${color}`);
+    }
+ 
 }
 
 
@@ -74,9 +68,9 @@ let aum = new IssuedDocuments("Aum","784189149") //Here parent class constructor
 aum.GetDocList() //Method of child class
 aum.GetAadhar() //Method of child class
 
-let jay = new UploadedDocuments("Jay","369852147")
+let jay = new UploadedDocuments()
 jay.GetDocList() 
-jay.GetAadhar()
+jay.GetDocList("black")
 
 
 // console.log(raj.age);  //variable of child class -> Undefined  
