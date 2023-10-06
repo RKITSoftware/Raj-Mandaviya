@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>jQuery Tutorial</h1>
+    <h2>jQuery Events</h2>
+
+    <form>
+        <label for="username">Username</label>
+        <input type="text" name="username">
+        <button type="submit" id="btnSubmit">Submit</button>
+    </form>
+
+    <script src="../JS/jquery-3.7.1.min.js"></script>
+    <script>
+        $(document).ready(function(){
+
+            //click
+            $('#btnSubmit').click(function(){
+                console.log("button clicked");
+            })
+    
+            //double click
+            $('#btnSubmit').dblclick(function(){
+                console.log("button double clicked");
+            })
+    
+            //mouseover
+            $('#btnSubmit').mouseover(function(){
+                console.log("button mouseover");
+            })
+    
+            //mousedown
+            $('#btnSubmit').mousedown(function(){
+                console.log("button mousedown");
+            })
+            
+            //mouseup
+            $('#btnSubmit').mouseup(function(){
+                console.log("button mouseup");
+            })
+
+            //on method , focus
+            $('#btnSubmit').on('focus',function(){
+                console.log("button is focused");
+            })
+
+            //focusout
+            $('#btnSubmit').on('focusout',function(){
+                console.log("button is not focused");
+            })
+            
+            //submit
+            $('form').on('submit', function(event){
+                e.preventDefault();  //prevents default event, here is form submission
+                console.log("form submitted");
+            })
+        })
+
+
+    </script>
+</body>
+</html>

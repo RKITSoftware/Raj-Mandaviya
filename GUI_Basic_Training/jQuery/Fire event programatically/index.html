@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>jQuery Tutorial</h1>
+    <h2>jQuery Events</h2>
+
+    <form>
+        <label for="username">Username</label>
+        <input type="text" name="username" id="username">
+        <button type="submit" id="btnSubmit">Submit</button>
+    </form>
+    
+    <button type="submit" id="btnNewSubmit">Submit from here</button>
+    
+    <button id="btnHello">Say Hello</button>
+    <button id="btnWorld">World Button</button>
+
+    <script src="../JS/jquery-3.7.1.min.js"></script>
+    <script>
+        $(document).ready(function(){
+
+            //click
+            $('#btnNewSubmit').click(function(){
+               $('form').submit(); //submits the form from here
+            })
+            
+            $('#btnHello').click(function(){
+                console.log("Hello");
+                $('#btnWorld').click(); //clicks the world button from here
+            })
+
+            $('#btnWorld').click(function(){
+                console.log("World");
+            });
+            
+            $('#username').change(function(){
+                console.log("username changed");
+            });
+
+            $('#username').blur(function(){
+                console.log("username blurred");
+            });
+            
+            $('form').on('submit', function(e){
+                e.preventDefault();
+                console.log("form submitted");
+            })
+        })
+
+
+    </script>
+</body>
+</html>

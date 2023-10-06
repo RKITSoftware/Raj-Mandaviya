@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery</title>
+    <style>
+        .redButton {
+            background: red;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>jQuery Tutorial</h1>
+    <h2>HTML CSS Methods</h2>
+    <div>
+        <h3>Heading to be hidden</h3>
+        <p style="color: red;">Text to be hidden 1</p>
+        <p style="color: green;">Text to be hidden 2</p>
+        <p style="color: purple;">Text to be hidden 3</p>
+        <p style="color: blue;">Text to be hidden 4</p>
+
+        <input type="text" id="inputToBeCloned">
+        
+        
+        <button class="btn" id="btnHideHeading">Hide Heading</button>
+        <button class="btn" id="btnHidePara">Hide All Para</button>
+    </div>
+
+
+    <script src="../JS/jquery-3.7.1.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script> -->
+    <script>
+
+        // only '$' can be used instead of $(document).ready like $(function(){})
+        $(document).ready(function () { //Runnning jQuery, once the page is loaded
+            
+            //HTML CSS Methods
+            // .addClass() -> Add class to a clicked element
+            $(".btn").click(function(){
+                        $(this).addClass("redButton") 
+                    })
+
+            //.text() -> Gets the text inside the clicked element
+             $(".btn").click(function(){
+                console.log($(this).text());    
+            })
+            
+            // .after() -> Adds content after given element
+            $('#btnHideHeading').click(function(){
+                $('#btnHidePara').after("<p>Heading is now hidden.</p>")
+            })
+
+            // .before() -> Adds content before given element
+            $('#btnHidePara').click(function(){
+                $('#btnHideHeading').after("<p>Para is now hidden.</p>")
+            })
+            
+
+            // id selector
+            $('#btnHideHeading').click(function () {  //do this on button click
+                console.log($(this).text()); //this can be used to refer current element
+                $('h3').hide() //hides the paragraph
+            });
+
+            // .clone() -> will clone the clicked element
+            // .appendTo() -> Inserts HTML elements at the end of selected elements
+            $("#inputToBeCloned").click(function(){
+                $(this).clone().appendTo("body");  
+            })
+
+
+            //Function to hide clicked paragraph
+            $('p').click(function(){
+                console.log($(this).css("color"));
+            })
+
+            //Function to hide All Paragraph
+            $('#btnHidePara').click(function(){
+                $('p').hide(); //element selector
+            })
+            
+
+           
+
+
+            
+
+
+
+        })
+
+      
+
+
+
+
+    </script>
+</body>
+
+</html>

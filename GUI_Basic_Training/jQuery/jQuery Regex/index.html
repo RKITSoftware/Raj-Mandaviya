@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label for="name">Name: (Only Alphabets)</label>
+        <input type="text" name="name" id="name">
+        <button type="submit" id="btnSubmit">Submit</button>
+    </form>
+    
+
+ <script src="../JS/jquery-3.7.1.min.js"></script>
+ <script>
+
+        let regexp = new RegExp("[a-zA-Z]") 
+
+         regexp.test()
+
+         $('form').submit(function(e){
+            e.preventDefault();
+            //Checks if there is no numbers in name
+            let result = regexp.test($('#name').val());
+            if(result){
+                console.log("form submitted");
+            }else{
+                alert("Fill the Form Correctly")
+            }        
+         })
+
+         let testMail = "raj@rkit.com"
+         let regexpEmail = new RegExp("^[a-zA-Z0-9._]+@[a-zA-Z0-9.]+\.[a-zA-Z]{2,}$")
+
+         console.log("Email: ",regexpEmail.test(testMail));
+
+         let testContact = "1245-568-485";
+         let regexpContact = new RegExp("^[0-9]{4}-\[0-9]{3}-\[0-9]{3}$")
+         console.log("Contact: ", regexpContact.test(testContact));
+
+         let testUrl = "contact.rkit.com";
+         let regexpUrl = new RegExp("^[a-zA-Z0-9]+\.[a-zA-Z0-9]+\.[a-zA-Z]{2,5}$")
+         console.log("Url: ", regexpUrl.test(testUrl));
+
+
+
+ </script>
+</body>
+</html>

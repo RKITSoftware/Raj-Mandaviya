@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <script src="../JS/jquery-3.7.1.min.js"></script>
+    <script>
+
+        //Deferred and Promise
+        let a,b;
+        let flag = 1;
+        //If flag is true Deffered object will resolve and rejected if false.
+        const setValueA = function () {
+
+            let deferred = $.Deferred()
+
+            setTimeout(function () {
+                if (flag) {
+                    a = 10;
+                    deferred.resolve();
+                }
+                else {
+                    a = 20 
+                    deferred.reject();
+                }
+            }, 2000)
+            return deferred.promise();
+        }
+        
+        const setValueB = function () {
+
+            let deferred = $.Deferred()
+
+            setTimeout(function () { 
+                    b = 50;
+                    deferred.resolve();
+            }, 3000)
+
+            return deferred.promise();
+        }
+
+      
+
+        //undefined because value is set after 2 seconds
+        console.log("a before setValueA: ", a);
+        console.log(setValueA().state()); //pending 
+
+        //done() runs if a deffered is resolved
+        setValueA().done(function () {
+            console.log("a after setValueA resolves: ", a);
+            console.log("state in done: ", setValueA().state()); //resolved 
+        })
+
+        //fail() runs if a deffered is resolved
+        setValueA().fail(function () {
+            console.log("a after setValueA rejects: ", a);
+            console.log("state in fail: ", setValueA().state()); //rejected 
+        })
+
+        /*
+        Deferred can be chained like this
+        setValueA().done(function(){
+            console.log("a after setValueA resolves: ",a);
+        }).fail(function(){
+            console.log("a after setValueA rejects: ",a);
+        })
+        */
+
+        /*
+        //then(done(),fail()) will have methods for done and fail as parameters 
+        setValueA().then(function(){ //done
+            console.log("a after setValueA resolves: ",a);
+        },
+        function(){ //fail
+            console.log("a after setValueA rejects: ",a);
+        })
+        */
+
+        //always() runs not matter deferred object is resolved or rejected
+        setValueA().always(function () {
+            console.log("a after setValueA resolves or rejects: ", a);
+        })
+
+        //Will run ONLY when both deferred objects are resolved 
+        $.when(setValueA(), setValueB()).done(function(){
+            console.log(a, b);
+        })
+
+    </script>
+</body>
+
+</html>

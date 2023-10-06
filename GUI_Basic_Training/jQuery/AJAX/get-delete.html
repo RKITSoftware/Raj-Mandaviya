@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div id="users"></div>
+
+    <button id="btnGetData">Get Data</button>
+    <button id="btnDelete">Delete first record</button>
+
+    <script src="../JS/jquery-3.7.1.min.js"></script>
+    <script>
+
+        $(document).ready(function(){
+            $("#btnGetData").click(function(){
+                console.log("btn clicked");
+                let getUsers = $.get({
+                    url:"https://jsonplaceholder.typicode.com/users",
+                }).promise()
+
+                /*
+                let getUsers = $.ajax({
+                        url: "https://jsonplaceholder.typicode.com/users",
+                        type: 'GET'
+                }).promise()
+                */
+                
+                getUsers.then(function(result){
+                    $.map(result, function(user){
+                        console.log(user);
+                    })
+                }, function(error){
+                    console.log("Some error occured!");
+                })
+            })
+
+            $("#btnDelete").click(function(){
+                $.ajax({
+                    url : "https://jsonplaceholder.typicode.com/users/1",
+                    method : "DELETE"
+                }).done(function(result){
+                    console.log("deleted",result);
+                }).fail(function(error){
+                    console.log(error);
+                })
+            })
+        })
+
+    </script>
+</body>
+</html>

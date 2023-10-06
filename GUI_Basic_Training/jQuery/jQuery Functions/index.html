@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+ <script src="../JS/jquery-3.7.1.min.js"></script>
+ <script>
+    $(document).ready(function(){
+
+        let staff = {
+            1:{
+                name: "Raj",
+                tech : "asp",
+                gender : "male",
+                age : 20
+            },
+            2:{
+                name:"Aum",
+                tech: "flutter",
+                gender : "male",
+                age : 20
+            },
+            3:{
+                name : "Dev",
+                tech : "asp",
+                gender : "male",
+                age : 20
+                
+            },
+        }
+        let data = [10, 20, 30, 40, 50]
+        let newData = [60,70,80,90,100]
+
+        //map function
+        $.map(data,function(value, index){
+            console.log("map loop:", value - 1);
+        })
+        //This returns full array of boolean values
+        let mappedData = $.map(data, function(value, index){  
+                        // console.log(index);
+                        return value * 2 === 0
+                        })
+        console.log("mappedData: ",mappedData); //[false, false, false, false, false, false]
+        
+        //Iterating through an object
+        $.map(staff, function(member, index){
+            console.log("map loop obj: ", `${member.name} knows ${member.tech}`);
+        })
+
+
+        //grep function
+        //Returns values if condition matches
+        let grepData = $.grep(data, function(value){
+           return value % 2 === 0
+        })
+        console.log("grepdata: ", grepData);
+
+        //Wont work with objects
+        // let grepMembers = $.grep(staff,function(member){
+        //     return member.age + 1 === 21 
+        // })
+        // console.log(grepMembers);
+
+        //extend function
+
+        let extendedData = $.extend(data,newData)
+        //data will be unexpected; extend should be used for objects; for arrays concat can be used
+        console.log("extendedData: ",extendedData); 
+
+        let groupA = {
+                raj:"asp", dev: "asp", aum:"flutter"
+        }
+        let groupB = {
+                shivam:"react", pavan: "jquery", raj:"django"
+        }
+        let groupC = {
+                shiva:"react", pava: "jquery", ra:"django"
+        }
+        
+        
+
+        let extendedGroups =  $.extend({},groupA,groupB,groupC); //Here keys with same values will be replaced
+        console.log("extendedGroups: ",extendedGroups);
+
+
+        // also groupA will have be changed because of {} parameter
+        console.log("groupA: ",groupA);
+        
+        //each function
+
+        let eachData = $.each(data,function(index, value){
+            return value * value; //doesnt change the value
+        });
+
+        console.log(eachData); //same values as data
+
+        $.each(groupA,function(element){
+            console.log(element);
+        })
+
+        let eGroupA = [{
+                raj:"asp", dev: "asp", aum:"flutter"
+        },
+        {
+                raj:"ap", dev: "as", aum:"fluter"
+        }]
+        let eGroupB = [{
+                shivam:"react", pavan: "jquery", raj:"django"
+        },{
+                shivam:"react", pavan: "jquery", raj:"django"
+        }]
+
+        let myData = [1,2,3,4,5]
+        let myNewData = [5,6,7,8,9,10] //5 will come 2 times in merged array
+
+        let mergedData = $.merge(myData,myNewData)
+        let mergedGroups = $.merge(eGroupA,eGroupB) // Wont work as merge only works on arrays
+    
+        console.log(mergedData);
+        console.log("mergedGroups: ",mergedGroups);
+
+    })
+ </script>
+</body>
+</html>

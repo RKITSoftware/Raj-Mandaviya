@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div id="users"></div>
+
+    <button id="btnSendData">Send Data</button>
+
+    <script src="../JS/jquery-3.7.1.min.js"></script>
+    <script>
+
+        $(document).ready(function(){
+            $("#btnSendData").click(function(){
+                console.log("btn clicked");
+                
+                let setUser = $.post({
+                    url:"https://jsonplaceholder.typicode.com/users",
+                    data : {name: "raj", age : 20}
+
+                }).promise()
+
+                /*
+                let setUser = $.ajax({
+                        url: "https://jsonplaceholder.typicode.com/users",
+                        type: 'POST',
+                        data : {name: "raj", age : 20}
+                }).promise()
+                */
+              
+
+                setUser.then(function(result){
+                    console.log(result);
+                }, function(error){
+                    console.log("Some error occured!");
+                })
+            })
+        })
+
+    </script>
+</body>
+</html>
