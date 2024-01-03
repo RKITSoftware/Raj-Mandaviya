@@ -1,0 +1,7 @@
+C:\Users\Raj\source\repos\Datatypes and Variables\Enums\bin\Debug\Enums.exe.config
+C:\Users\Raj\source\repos\Datatypes and Variables\Enums\bin\Debug\Enums.exe
+C:\Users\Raj\source\repos\Datatypes and Variables\Enums\bin\Debug\Enums.pdb
+C:\Users\Raj\source\repos\Datatypes and Variables\Enums\obj\Debug\Enums.csproj.AssemblyReference.cache
+C:\Users\Raj\source\repos\Datatypes and Variables\Enums\obj\Debug\Enums.csproj.CoreCompileInputs.cache
+C:\Users\Raj\source\repos\Datatypes and Variables\Enums\obj\Debug\Enums.exe
+C:\Users\Raj\source\repos\Datatypes and Variables\Enums\obj\Debug\Enums.pdb

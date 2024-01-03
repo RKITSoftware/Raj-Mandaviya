@@ -1,0 +1,7 @@
+C:\Users\Raj\source\repos\Datatypes and Variables\File Handling\bin\Debug\File Handling.exe.config
+C:\Users\Raj\source\repos\Datatypes and Variables\File Handling\bin\Debug\File Handling.exe
+C:\Users\Raj\source\repos\Datatypes and Variables\File Handling\bin\Debug\File Handling.pdb
+C:\Users\Raj\source\repos\Datatypes and Variables\File Handling\obj\Debug\File Handling.csproj.AssemblyReference.cache
+C:\Users\Raj\source\repos\Datatypes and Variables\File Handling\obj\Debug\File Handling.csproj.CoreCompileInputs.cache
+C:\Users\Raj\source\repos\Datatypes and Variables\File Handling\obj\Debug\File Handling.exe
+C:\Users\Raj\source\repos\Datatypes and Variables\File Handling\obj\Debug\File Handling.pdb

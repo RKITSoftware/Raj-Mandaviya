@@ -1,0 +1,7 @@
+C:\Users\Raj\source\repos\Datatypes and Variables\NonGeneric Collections\bin\Debug\NonGeneric Collections.exe.config
+C:\Users\Raj\source\repos\Datatypes and Variables\NonGeneric Collections\bin\Debug\NonGeneric Collections.exe
+C:\Users\Raj\source\repos\Datatypes and Variables\NonGeneric Collections\bin\Debug\NonGeneric Collections.pdb
+C:\Users\Raj\source\repos\Datatypes and Variables\NonGeneric Collections\obj\Debug\NonGeneric Collections.csproj.AssemblyReference.cache
+C:\Users\Raj\source\repos\Datatypes and Variables\NonGeneric Collections\obj\Debug\NonGeneric Collections.csproj.CoreCompileInputs.cache
+C:\Users\Raj\source\repos\Datatypes and Variables\NonGeneric Collections\obj\Debug\NonGeneric Collections.exe
+C:\Users\Raj\source\repos\Datatypes and Variables\NonGeneric Collections\obj\Debug\NonGeneric Collections.pdb

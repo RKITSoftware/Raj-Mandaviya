@@ -1,0 +1,7 @@
+C:\Users\Raj\source\repos\Datatypes and Variables\DataTable_Demo\bin\Debug\DataTable_Demo.exe.config
+C:\Users\Raj\source\repos\Datatypes and Variables\DataTable_Demo\bin\Debug\DataTable_Demo.exe
+C:\Users\Raj\source\repos\Datatypes and Variables\DataTable_Demo\bin\Debug\DataTable_Demo.pdb
+C:\Users\Raj\source\repos\Datatypes and Variables\DataTable_Demo\obj\Debug\DataTable_Demo.csproj.AssemblyReference.cache
+C:\Users\Raj\source\repos\Datatypes and Variables\DataTable_Demo\obj\Debug\DataTable_Demo.csproj.CoreCompileInputs.cache
+C:\Users\Raj\source\repos\Datatypes and Variables\DataTable_Demo\obj\Debug\DataTable_Demo.exe
+C:\Users\Raj\source\repos\Datatypes and Variables\DataTable_Demo\obj\Debug\DataTable_Demo.pdb

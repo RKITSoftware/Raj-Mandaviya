@@ -1,0 +1,14 @@
+C:\Users\Raj\source\repos\Datatypes and Variables\DateTimeClass\bin\Debug\DateTimeClass.exe.config
+C:\Users\Raj\source\repos\Datatypes and Variables\DateTimeClass\bin\Debug\DateTimeClass.exe
+C:\Users\Raj\source\repos\Datatypes and Variables\DateTimeClass\bin\Debug\DateTimeClass.pdb
+C:\Users\Raj\source\repos\Datatypes and Variables\DateTimeClass\obj\Debug\DateTimeClass.csproj.AssemblyReference.cache
+C:\Users\Raj\source\repos\Datatypes and Variables\DateTimeClass\obj\Debug\DateTimeClass.csproj.CoreCompileInputs.cache
+C:\Users\Raj\source\repos\Datatypes and Variables\DateTimeClass\obj\Debug\DateTimeClass.exe
+C:\Users\Raj\source\repos\Datatypes and Variables\DateTimeClass\obj\Debug\DateTimeClass.pdb
+C:\Users\Raj\source\repos\Basics of C#\DateTimeClass\bin\Debug\DateTimeClass.exe.config
+C:\Users\Raj\source\repos\Basics of C#\DateTimeClass\bin\Debug\DateTimeClass.exe
+C:\Users\Raj\source\repos\Basics of C#\DateTimeClass\bin\Debug\DateTimeClass.pdb
+C:\Users\Raj\source\repos\Basics of C#\DateTimeClass\obj\Debug\DateTimeClass.csproj.AssemblyReference.cache
+C:\Users\Raj\source\repos\Basics of C#\DateTimeClass\obj\Debug\DateTimeClass.csproj.CoreCompileInputs.cache
+C:\Users\Raj\source\repos\Basics of C#\DateTimeClass\obj\Debug\DateTimeClass.exe
+C:\Users\Raj\source\repos\Basics of C#\DateTimeClass\obj\Debug\DateTimeClass.pdb

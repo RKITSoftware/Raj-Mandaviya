@@ -1,0 +1,7 @@
+C:\Users\Raj\source\repos\Datatypes and Variables\Generic Collections\bin\Debug\Generic Collections.exe.config
+C:\Users\Raj\source\repos\Datatypes and Variables\Generic Collections\bin\Debug\Generic Collections.exe
+C:\Users\Raj\source\repos\Datatypes and Variables\Generic Collections\bin\Debug\Generic Collections.pdb
+C:\Users\Raj\source\repos\Datatypes and Variables\Generic Collections\obj\Debug\Generic Collections.csproj.AssemblyReference.cache
+C:\Users\Raj\source\repos\Datatypes and Variables\Generic Collections\obj\Debug\Generic Collections.csproj.CoreCompileInputs.cache
+C:\Users\Raj\source\repos\Datatypes and Variables\Generic Collections\obj\Debug\Generic Collections.exe
+C:\Users\Raj\source\repos\Datatypes and Variables\Generic Collections\obj\Debug\Generic Collections.pdb

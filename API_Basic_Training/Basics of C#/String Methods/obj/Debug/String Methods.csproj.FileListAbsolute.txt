@@ -1,0 +1,7 @@
+C:\Users\Raj\source\repos\Datatypes and Variables\String Methods\bin\Debug\String Methods.exe.config
+C:\Users\Raj\source\repos\Datatypes and Variables\String Methods\bin\Debug\String Methods.exe
+C:\Users\Raj\source\repos\Datatypes and Variables\String Methods\bin\Debug\String Methods.pdb
+C:\Users\Raj\source\repos\Datatypes and Variables\String Methods\obj\Debug\String Methods.csproj.AssemblyReference.cache
+C:\Users\Raj\source\repos\Datatypes and Variables\String Methods\obj\Debug\String Methods.csproj.CoreCompileInputs.cache
+C:\Users\Raj\source\repos\Datatypes and Variables\String Methods\obj\Debug\String Methods.exe
+C:\Users\Raj\source\repos\Datatypes and Variables\String Methods\obj\Debug\String Methods.pdb
