@@ -43,9 +43,6 @@ class FormValidator{
    
 }
 
-
-
-
 const formValidator = new FormValidator();
 
 const password = document.getElementById("password");
@@ -63,14 +60,3 @@ if(password){
     });
 
 }
-
-
-        
-            
-    
-
-
-
-// if(a){ 
-//     console.log("val of a",a);  //Will not execute if a is false or null or undefined 
-// }
