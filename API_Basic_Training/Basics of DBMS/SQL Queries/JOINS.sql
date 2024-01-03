@@ -1,0 +1,28 @@
+# JOINS
+
+# INNER JOIN
+SELECT 
+	*
+FROM
+	tra01 
+INNER JOIN
+	cus01
+ON 
+	tra01.A01F03 = cus01.S01F01;
+    
+# LEFT JOIN
+SELECT 
+	*
+FROM
+	tra01 
+LEFT JOIN
+	cus01
+ON 
+	tra01.A01F03 = cus01.S01F01;
+    
+# RIGHT JOIN
+SELECT 
+	*
+FROM
+	tra01 
+RIGHT JOIN cus01 ON tra01.A01F03 = cus01.S01F01;

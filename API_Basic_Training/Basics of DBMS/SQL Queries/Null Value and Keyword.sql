@@ -1,0 +1,20 @@
+-- INSERTING NULL VALUE
+
+INSERT INTO 
+	emp01(p01f02, p01f03, p01f04,p01f05, p01f06) 
+VALUES('Dev','SDE', 20, 50000, NULL);
+
+SELECT 
+	p01f02
+FROM
+	emp_master
+WHERE
+	p01f06 IS NULL;
+
+SELECT 
+	p01f02
+FROM
+	emp01
+WHERE
+	p01f06 IS NOT NULL;   
+   

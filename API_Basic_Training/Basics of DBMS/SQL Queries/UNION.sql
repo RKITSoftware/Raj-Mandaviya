@@ -1,0 +1,24 @@
+# UNION
+
+
+# Without Duplicates
+SELECT 
+	P01F02
+FROM 
+	emp01
+UNION
+SELECT 
+	S01F02
+FROM
+	cus01;
+    
+#With Duplicates
+SELECT 
+	P01F02
+FROM 
+	emp01
+UNION ALL
+SELECT 
+	S01F02
+FROM
+	cus01;
