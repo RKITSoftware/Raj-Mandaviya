@@ -1,0 +1,196 @@
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\Jwt.dll.config
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\Jwt.dll
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\Jwt.pdb
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\csc.exe
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\csc.exe.config
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\csc.rsp
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\csi.exe
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\csi.exe.config
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\csi.rsp
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\System.AppContext.dll
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\System.Collections.Immutable.dll
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\System.Console.dll
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\System.Globalization.Calendars.dll
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\System.IO.Compression.dll
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\System.IO.FileSystem.dll
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\System.Net.Http.dll
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\System.Net.Sockets.dll
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\System.Reflection.Metadata.dll
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\System.ValueTuple.dll
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\System.Xml.XPath.dll
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\vbc.exe
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\vbc.exe.config
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\vbc.rsp
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\VBCSCompiler.exe
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\VBCSCompiler.exe.config
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\Microsoft.IdentityModel.Abstractions.dll
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\Microsoft.IdentityModel.Logging.dll
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\Microsoft.IdentityModel.Tokens.dll
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\Newtonsoft.Json.dll
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\Security.dll
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\System.Buffers.dll
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\System.IdentityModel.Tokens.Jwt.dll
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\System.Memory.dll
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\System.Net.Http.Formatting.dll
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\System.Numerics.Vectors.dll
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\System.Text.Encodings.Web.dll
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\System.Text.Json.dll
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\System.Threading.Tasks.Extensions.dll
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\System.ValueTuple.dll
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\System.Web.Http.dll
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\System.Web.Http.WebHost.dll
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\Security.pdb
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\Security.dll.config
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\Microsoft.IdentityModel.Abstractions.xml
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\Microsoft.IdentityModel.JsonWebTokens.xml
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\Microsoft.IdentityModel.Logging.xml
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\Microsoft.IdentityModel.Tokens.xml
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\System.Buffers.xml
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\System.IdentityModel.Tokens.Jwt.xml
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\System.Memory.xml
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\System.Numerics.Vectors.xml
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\System.Text.Encodings.Web.xml
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\System.Text.Json.xml
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\System.Threading.Tasks.Extensions.xml
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\System.ValueTuple.xml
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\Newtonsoft.Json.xml
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\System.Net.Http.Formatting.xml
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\System.Web.Http.xml
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\System.Web.Http.WebHost.xml
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\obj\Debug\Jwt.csproj.AssemblyReference.cache
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\obj\Debug\Jwt.csproj.CoreCompileInputs.cache
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\obj\Debug\Jwt.csproj.CopyComplete
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\obj\Debug\Jwt.dll
+D:\Raj Mandaviya - 365\Training\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\obj\Debug\Jwt.pdb
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\Jwt.dll.config
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\Jwt.dll
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\Jwt.pdb
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\csc.exe
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\csc.exe.config
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\csc.rsp
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\csi.exe
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\csi.exe.config
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\csi.rsp
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\Microsoft.Managed.Core.targets
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\Microsoft.Win32.Primitives.dll
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\System.AppContext.dll
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\System.Collections.Immutable.dll
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\System.Console.dll
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\System.Globalization.Calendars.dll
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\System.IO.Compression.dll
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\System.IO.Compression.ZipFile.dll
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\System.IO.FileSystem.dll
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\System.Net.Http.dll
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\System.Net.Sockets.dll
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\System.Reflection.Metadata.dll
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\System.Threading.Tasks.Extensions.dll
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\System.ValueTuple.dll
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\System.Xml.XmlDocument.dll
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\System.Xml.XPath.dll
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\vbc.exe
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\vbc.exe.config
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\vbc.rsp
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\VBCSCompiler.exe
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\roslyn\VBCSCompiler.exe.config
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\Microsoft.Bcl.AsyncInterfaces.dll
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\Microsoft.IdentityModel.Abstractions.dll
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\Microsoft.IdentityModel.Logging.dll
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\Microsoft.IdentityModel.Tokens.dll
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\Newtonsoft.Json.dll
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\Security.dll
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\System.Buffers.dll
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\System.IdentityModel.Tokens.Jwt.dll
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\System.Memory.dll
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\System.Net.Http.Formatting.dll
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\System.Numerics.Vectors.dll
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\System.Runtime.CompilerServices.Unsafe.dll
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\System.Text.Encodings.Web.dll
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\System.Text.Json.dll
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\System.Threading.Tasks.Extensions.dll
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\System.ValueTuple.dll
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\System.Web.Http.dll
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\System.Web.Http.WebHost.dll
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\Security.pdb
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\Security.dll.config
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\Microsoft.Bcl.AsyncInterfaces.xml
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\Microsoft.IdentityModel.Abstractions.xml
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\Microsoft.IdentityModel.JsonWebTokens.xml
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\Microsoft.IdentityModel.Logging.xml
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\Microsoft.IdentityModel.Tokens.xml
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\System.Buffers.xml
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\System.IdentityModel.Tokens.Jwt.xml
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\System.Memory.xml
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\System.Numerics.Vectors.xml
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\System.Runtime.CompilerServices.Unsafe.xml
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\System.Text.Encodings.Web.xml
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\System.Text.Json.xml
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\System.Threading.Tasks.Extensions.xml
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\System.ValueTuple.xml
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\Newtonsoft.Json.xml
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\System.Net.Http.Formatting.xml
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\System.Web.Http.xml
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\System.Web.Http.WebHost.xml
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\obj\Debug\Jwt.csproj.AssemblyReference.cache
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\obj\Debug\Jwt.csproj.CoreCompileInputs.cache
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\obj\Debug\Jwt.csproj.CopyComplete
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\obj\Debug\Jwt.dll
+F:\Raj - 365\Raj-Mandaviya\API_Basic_Training\Basics of Web Development\Jwt\obj\Debug\Jwt.pdb
